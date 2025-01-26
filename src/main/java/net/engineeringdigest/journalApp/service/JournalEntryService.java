@@ -17,7 +17,7 @@ public class JournalEntryService {
 
     public List<JournalEntry> getAll() {
       try {
-          return journalRepo.findAll();
+          return  journalRepo.findAll();
       }catch (Exception e) {
           return Collections.emptyList();
       }
